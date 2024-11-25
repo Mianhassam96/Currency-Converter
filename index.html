@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div class="container">
+    <h1> Currency Converter</h1>
+    <form>
+        <div class="amount">
+            <p>Enter Amount </p>
+           <input value="100" type="text">
+        </div>
+        <div class="dropdown">
+            <div class="from">
+                <p>From</p>
+                <div class="select-container">
+                    <img src="https://flagsapi.com/US/flat/64.png">
+                    <select name="From">
+                        <option value="USD">USD</option>
+                        <option value="PKR">PKR</option>
+                        <option value="EUR">EUR</option>
+                        <option value="INR">INR</option>
+                    </select>
+                </div>
+            </div>
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            <div class="to">
+                <p>To</p>
+                <div class="select-container">
+                    <img src="https://flagsapi.com/PK/flat/64.png">
+                    <select name="From">
+                        <option value="USD">USD</option>
+                        <option value="PKR" selected>PKR</option>
+                        <option value="EUR">EUR</option>
+                        <option value="INR">INR</option>
+                    </select>
+                </div>
+
+            </div>
+        </div>
+        <div class="msg">1 USD = 277.80 PKR</div>
+        <button>Get Exchange Rate</button>
+    </form>
+
+</div>
+
+
+<footer>
+    <p>&copy; 2024 MultiMian. All Rights Reserved.</p>
+    <!-- <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div> -->
+</footer>
+
+
+    <script src="script.js"></script>
+    <script src="codes.js"></script>
+</body>
+</html>
+ 
